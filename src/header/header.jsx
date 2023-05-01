@@ -19,11 +19,15 @@ const menus = [
     },
     {
         name: 'Administrations',
-        url: '/admi',
+        url: '/admin',
     },
     {
         name: 'Internships',
         url: '/intern',
+    },
+    {
+        name: 'Contact',
+        url: '/contact',
     },
     ];
 

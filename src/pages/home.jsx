@@ -11,7 +11,7 @@ export const Home = () => {
                 </div>
                 <div className='col-lg-6'>
                     <p>
-                        As a second year student at ISIMA in France, my current research focuses on Image Processing, Natural Language Processing(NLP) and Code Generation Based on ML and AI.
+                        As a second year student at ISIMA in France, my current research focuses on Image Processing, Natural Language Processing(NLP) and Code Generation Based on ML/AI.
                     </p>
                     <p>
                         In the meantime, I am honoured to invite you to visit my website on art.

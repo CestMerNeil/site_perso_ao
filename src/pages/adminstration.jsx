@@ -3,11 +3,10 @@ import {Container, Row, Col} from "react-bootstrap";
 
 const projectsList = [];
 
-const Projects = () => {
+const Adminstration = () => {
     return (
         <p>N/A</p>
-    );
+        );
 };
 
-export default Projects;
-
+export default Adminstration;
