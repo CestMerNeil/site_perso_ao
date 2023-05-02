@@ -1,8 +1,8 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
-import logo from './logo.jpg';
 import {Nav, Navbar} from "react-bootstrap";
 import {Link} from "react-router-dom";
+import logo from "./logo.jpg";
 
 const menus = [
     {
