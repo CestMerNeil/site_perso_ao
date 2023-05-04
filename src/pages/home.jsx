@@ -1,4 +1,3 @@
-import home from './portrait.jpg';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -7,7 +6,7 @@ export const Home = () => {
         <div className='container'>
             <div className='row align-items-center'>
                 <div className='col-lg-6'>
-                    <img alt='home' src={home} className='img-fluid' style={{ borderRadius: '8%' }}/>
+                    <img alt='home' src={require('../images/portrait.jpg')} className='img-fluid' style={{ borderRadius: '8%' }}/>
                 </div>
                 <div className='col-lg-6'>
                     <p>

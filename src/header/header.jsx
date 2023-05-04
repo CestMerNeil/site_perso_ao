@@ -2,7 +2,6 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import {Nav, Navbar} from "react-bootstrap";
 import {Link} from "react-router-dom";
-import logo from "./logo.jpg";
 
 const menus = [
     {
@@ -42,7 +41,7 @@ export const Header = () => {
         <Navbar bg="light" expand="lg">
             <div className="container-fluid">
                 <Navbar.Brand as={Link} to="/">
-                    <img src={logo} alt="logo" width="50" className="d-inline-block align-top" style={{ borderRadius: '8%' }}/>
+                    <img src={require('../images/logo.jpg')} alt="logo" width="50" className="d-inline-block align-top" style={{ borderRadius: '8%' }}/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarNavDropdown"/>
                 <Navbar.Collapse id="navbarNavDropdown">
