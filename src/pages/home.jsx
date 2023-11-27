@@ -16,7 +16,7 @@ export const Home = () => {
                     <p>
                         In the meantime, I am honoured to invite you to visit my website on art.
                     </p>
-                    <button type="button" className="btn btn-light" onClick={() => {window.location.href = 'https://aoxie.art/';}}>
+                    <button type="button" className="btn btn-light" onClick={() => {window.location.href = 'https://aoxie.myportfolio.com/';}}>
                         Learn More
                     </button>
                 </div>
